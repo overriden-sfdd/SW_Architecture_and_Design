@@ -12,5 +12,5 @@ mvn install # or package
 echo "Run the main() in App.java (defined in the manifest file of the jar)"
 java -jar target/HelloWorld-1.0-SNAPSHOT.jar
 echo "Run the main() in some other file"
-java -cp target/java-starter-tla-1.0-SNAPSHOT.jar edu.assignment...
+java -cp target/HelloWorld-1.0-SNAPSHOT.jar edu.assignment...
 ```
