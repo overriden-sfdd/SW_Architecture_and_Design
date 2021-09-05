@@ -1,0 +1,18 @@
+# Java + Maven starter project
+
+## Running the code
+
+The "main" main() function is in Main.java.
+
+## CLI - Building and running the code
+
+clone repo
+
+``` sh
+mvn clean
+mvn install # or package
+echo "Run the main() in Main.java (defined in the manifest file of the jar)"
+java -jar target/HelloWorldProject-1.0-SNAPSHOT.jar
+echo "Run the main() in some other file
+java -cp target/HelloWorldProject-1.0-SNAPSHOT.jar org.edustart...
+```
